@@ -180,53 +180,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="js/jquery.fixedTOC.js"></script>
     <script src="dist/jquery.magnific-popup.js"></script>
-    <script type="text/javascript">
-     $(document).ready(function() {
-            $('.image-popup-no-margins').magnificPopup({
-              type: 'image',
-              closeOnContentClick: true,
-              closeBtnInside: false,
-              fixedContentPos: true,
-              mainClass: 'mfp-no-margins mfp-with-zoom', ight side
-              image: {
-                verticalFit: true
-              },
-              zoom: {
-                enabled: true,
-                duration: 300 
-              }
-            });
-
-             $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-              disableOn: 700,
-              type: 'iframe',
-              mainClass: 'mfp-fade',
-              removalDelay: 160,
-              preloader: false,
-
-              fixedContentPos: false
-            });
-
-            $('.simple-ajax-popup-align-top').magnificPopup({
-              type: 'ajax',
-              alignTop: true,
-              overflowY: 'scroll' 
-            });
-
-            $('.simple-ajax-popup').magnificPopup({
-              type: 'ajax'
-            });
-          });
-    </script>
-    <script>
-    $('#toc').fixedTOC({
-      menuOpens: 'click', 
-      scrollSpeed: 1000,
-      menuSpeed: 300,
-      useSubMenus: false,
-      resetSubMenus: false,
-      topLinkWorks: true
-    });
-    </script>
+    
   </body>
 </html>
